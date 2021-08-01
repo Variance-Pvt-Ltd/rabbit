@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand text-lowercase" data-bs-toggle="tooltip" data-bss-tooltip="" href="#page-top" title="Click to Logout">{{username}}</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Dashboard</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center text-white bg-primary masthead">
+        <div class="container">
+            <h1>&nbsp;Variance&nbsp;</h1>
+            <hr class="star-light">
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio">
+        <div class="col">
+            <div class="container">
+                <div class="row">
+                    <div class="col"><span></span></div>
+                </div>
+                <div class="row d-xl-flex justify-content-xl-end">
+                    <div class="col-md-4 d-xl-flex justify-content-xl-end" style="width: 158px;"><select class="d-xl-flex justify-content-xl-center" data-bss-hover-animate="bounce" style="height: 45px;width: 181px;margin-left: 0px;padding-left: 13px;">
+                            <option value="12" selected="">Live Trading</option>
+                            <option value="13">Paper Trading</option>
+                        </select></div>
+                    <div class="col-md-4 d-xl-flex justify-content-xl-end" style="width: 125px;"><button class="btn btn-secondary btn-lg d-xl-flex" data-bss-hover-animate="bounce" type="button">START</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary tada animated">dashboard</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align: center;background: var(--bs-table-striped-color);color: var(--bs-light);padding-right: 0px;width: 199px;padding-left: 0px;">SYMBOL</th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);width: 128px;">QUANTITY</th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);width: 132px;">TIME</th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);height: 21px;padding-right: 0;padding-left: 0;">TRL / STP</th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);padding: 8px;padding-bottom: 8px;padding-right: 0px;padding-left: 0PX;width: 176px;">USE BOLLINGER BAND</th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);width: 78px;padding-right: 0px;padding-left: 0px;">TYPE</th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);padding-left: 0px;">ACTIONS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;padding-right: 0px;padding-left: 0px;width: 187px;"><input type="text" style="height: 45px;width: 165px;"></td>
+                                    <td style="text-align: center;"><input type="number" style="height: 45px;width: 120px;"></td>
+                                    <td style="text-align: center;width: 66px;padding-left: 22px;"><select class="d-xl-flex justify-content-xl-center" data-bss-hover-animate="bounce" style="height: 45px;width: 97px;padding-left: 29px;">
+                                            <option value="12" selected="">1m</option>
+                                            <option value="13">3m</option>
+                                            <option value="">5m</option>
+                                            <option value="">15m</option>
+                                            <option value="">30m</option>
+                                            <option value="">1H</option>
+                                            <option value="">2H</option>
+                                            <option value="">4H</option>
+                                            <option value="">6H</option>
+                                            <option value="">8H</option>
+                                            <option value="">12H</option>
+                                            <option value="">1D</option>
+                                            <option value="">3D</option>
+                                            <option value="">1W</option>
+                                            <option value="">1M</option>
+                                        </select></td>
+                                    <td style="text-align: center;padding-left: 0;padding-right: 0;height: 28px;width: 141px;"><input type="text" style="height: 45px;width: 89px;padding: 0;"></td>
+                                    <td class="d-xl-flex justify-content-xl-center" style="text-align: center;width: 165px;"><select class="d-xl-flex justify-content-xl-center" data-bss-hover-animate="bounce" style="width: 152px;margin-left: 0px;height: 45px;padding-left: 52px;">
+                                            <option value="1" selected="">YES</option>
+                                            <option value="0">NO</option>
+                                        </select></td>
+                                    <td style="text-align: center;width: 116px;"><select class="d-xl-flex justify-content-xl-center" data-bss-hover-animate="bounce" style="height: 45px;width: 75px;margin-left: 0px;padding-left: 9px;">
+                                            <option value="12" selected="">OTM</option>
+                                            <option value="13">ITM</option>
+                                            <option value=""></option>
+                                        </select></td>
+                                    <td style="text-align: center;">
+                                        <div class="btn-group" role="group"><button class="btn btn-primary" type="button" style="margin-left: -73px;">EDIT</button><button class="btn btn-primary" type="button" style="margin: 0px;margin-right: -55px;margin-left: 9px;">DELETE</button></div>
+                                    </td>
+                                </tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align: center;background: var(--bs-table-striped-color);color: var(--bs-light);padding-right: 0px;width: 199px;padding-left: 0px;"><i class="fa fa-plus-circle d-xl-flex justify-content-xl-center" style="height: 1px;"></i><br></th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);width: 132px;"></th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);height: 21px;padding-right: 0;padding-left: 0;"></th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);padding: 8px;padding-bottom: 8px;padding-right: 0px;padding-left: 0PX;width: 176px;"></th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);width: 78px;padding-right: 0px;padding-left: 0px;"></th>
+                                    <th style="text-align: center;color: var(--bs-light);background: var(--bs-table-striped-color);padding-left: 0px;"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr></tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-white bg-primary mb-0" id="about">
+        <footer class="text-center footer"></footer>
+    </section>
+    <section id="contact">
+        <h2 class="text-uppercase text-center text-secondary tada animated">Settings</h2>
+        <hr class="star-dark mb-5">
+        <div class="container">
+            <div class="row d-xl-flex justify-content-xl-end" style="padding-bottom: 20px;">
+                <div class="col-md-6 d-xl-flex justify-content-xl-center">
+                    <h3 class="text-center d-xl-flex justify-content-xl-center">Stop Bot after 10% loss of Account</h3>
+                </div>
+                <div class="col-md-6 d-xl-flex justify-content-xl-center align-items-xl-center" style="border-bottom-style: none;width: 445px;"><button class="btn btn-primary d-xl-flex" type="button">Button</button></div>
+            </div>
+            <div class="row d-xl-flex justify-content-xl-end" style="padding-bottom: 20px;">
+                <div class="col-md-6 d-xl-flex justify-content-xl-center align-items-xl-center">
+                    <h3 class="text-center d-xl-flex justify-content-xl-center">Start Bot at 9:45 am EST</h3>
+                </div>
+                <div class="col-md-6 d-xl-flex justify-content-xl-center align-items-xl-center" style="border-bottom-style: none;width: 445px;"><button class="btn btn-primary d-xl-flex" type="button">Button</button></div>
+            </div>
+            <div class="row d-xl-flex justify-content-xl-end" style="padding-bottom: 20px;">
+                <div class="col-md-6 d-xl-flex justify-content-xl-center align-items-xl-center">
+                    <h1 class="text-center d-xl-flex justify-content-xl-center"></h1>
+                    <h3 class="text-center d-xl-flex justify-content-xl-center">Stop Bot at 12:00 pm EST</h3>
+                </div>
+                <div class="col-md-6 d-xl-flex justify-content-xl-center align-items-xl-center" style="border-bottom-style: none;width: 445px;"><button class="btn btn-primary d-xl-flex" type="button">Button</button></div>
+            </div>
+            <div class="row d-xl-flex justify-content-xl-end">
+                <div class="col-md-6 d-xl-flex justify-content-xl-center align-items-xl-center">
+                    <h3 class="text-center d-xl-flex justify-content-xl-center">Downsize to 1 contract at 12:00 pm&nbsp;</h3>
+                </div>
+                <div class="col-md-6 d-xl-flex justify-content-xl-center align-items-xl-center" style="border-bottom-style: none;width: 445px;"><button class="btn btn-primary d-xl-flex" type="button">Button</button></div>
+            </div>
+        </div>
+    </section>
+    <div class="text-center text-white copyright py-4">
+        <div class="container"><small>Designed with&nbsp;♥ by @monees007</small></div>
+    </div>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/cabin.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/cake.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/circus.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/game.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/safe.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/submarine.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
