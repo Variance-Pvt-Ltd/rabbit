@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="984c87fb-bfd4-4103-9061-d43f3a04340a" name="Changes" comment="Front-end Done.">
-      <change beforePath="$PROJECT_DIR$/bin/abacus.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/abacus.py" afterDir="false" />
+    <list default="true" id="984c87fb-bfd4-4103-9061-d43f3a04340a" name="Changes" comment="Front-end CSS revision.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +24,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/layout/assets" />
+      <recent name="$PROJECT_DIR$/layout/assets/js" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,7 +50,7 @@
       <updated>1627810452557</updated>
       <workItem from="1627810458388" duration="40000" />
       <workItem from="1627827817115" duration="536000" />
-      <workItem from="1627873251385" duration="89000" />
+      <workItem from="1627873251385" duration="979000" />
     </task>
     <task id="LOCAL-00001" summary="Front-end Done.">
       <created>1627828345916</created>
@@ -48,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627828345916</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Front-end CSS revision.">
+      <created>1627874416832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627874416832</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,7 +86,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Front-end Done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Front-end Done." />
+    <MESSAGE value="Front-end CSS revision." />
+    <option name="LAST_COMMIT_MESSAGE" value="Front-end CSS revision." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
